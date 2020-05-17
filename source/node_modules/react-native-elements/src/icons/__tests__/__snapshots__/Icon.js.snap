@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component should apply container style 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "overflow": "hidden",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Icon component should apply custom disabled styles 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <TouchableHighlight
+    activeOpacity={0.3}
+    delayPressOut={100}
+    disabled={true}
+    onPress={[MockFunction]}
+    underlayColor="transparent"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "pink",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </TouchableHighlight>
+</View>
+`;
+
+exports[`Icon component should apply default disabled styles 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <TouchableHighlight
+    activeOpacity={0.3}
+    delayPressOut={100}
+    disabled={true}
+    onPress={[MockFunction]}
+    underlayColor="transparent"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#D1D5D8",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </TouchableHighlight>
+</View>
+`;
+
+exports[`Icon component should apply raised styles 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 28,
+      "height": 52,
+      "margin": 7,
+      "overflow": "hidden",
+      "shadowColor": "rgba(0,0,0, .4)",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 1,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 1,
+      "width": 52,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 28,
+          "height": 52,
+          "justifyContent": "center",
+          "width": 52,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Icon component should apply reverse styles 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 28,
+      "height": 52,
+      "margin": 7,
+      "overflow": "hidden",
+      "width": 52,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "black",
+          "borderRadius": 28,
+          "height": 52,
+          "justifyContent": "center",
+          "width": 52,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="white"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Icon component should apply values from theme 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <View
+    background={Object {}}
+    replaceTheme={[Function]}
+    theme={
+      Object {
+        "Icon": Object {
+          "size": 26,
+        },
+        "colors": Object {
+          "disabled": "hsl(208, 8%, 90%)",
+          "divider": "#bcbbc1",
+          "error": "#ff190c",
+          "grey0": "#393e42",
+          "grey1": "#43484d",
+          "grey2": "#5e6977",
+          "grey3": "#86939e",
+          "grey4": "#bdc6cf",
+          "grey5": "#e1e8ee",
+          "greyOutline": "#bbb",
+          "platform": Object {
+            "android": Object {
+              "error": "#f44336",
+              "primary": "#2196f3",
+              "secondary": "#9C27B0",
+              "success": "#4caf50",
+              "warning": "#ffeb3b",
+            },
+            "ios": Object {
+              "error": "#ff3b30",
+              "primary": "#007aff",
+              "secondary": "#5856d6",
+              "success": "#4cd964",
+              "warning": "#ffcc00",
+            },
+          },
+          "primary": "#2089dc",
+          "searchBg": "#303337",
+          "secondary": "#8F0CE8",
+          "success": "#52c41a",
+          "warning": "#faad14",
+        },
+      }
+    }
+    updateTheme={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        brand={false}
+        solid={false}
+        style={
+          Array [
+            Object {
+              "color": "black",
+              "fontSize": 26,
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="iconIcon"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Icon component should render with icon type 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 30,
+      "height": 52,
+      "margin": 7,
+      "overflow": "hidden",
+      "width": 52,
+    }
+  }
+>
+  <TouchableHighlight
+    activeOpacity={0.3}
+    delayPressOut={100}
+    disabled={false}
+    onPress={[MockFunction]}
+    underlayColor="red"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "borderRadius": 28,
+          "height": 52,
+          "justifyContent": "center",
+          "width": 52,
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="white"
+        name="alert"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "peru",
+            "borderRadius": 30,
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </TouchableHighlight>
+</View>
+`;
+
+exports[`Icon component should render without issues 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Icon component should set underlayColor to color when styles when underlayColor absent 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Icon component works on android with onPress 1`] = `
+<View
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <DummyTouchableNativeFeedback
+    activeOpacity={0.3}
+    background={Object {}}
+    disabled={false}
+    onPress={[MockFunction]}
+    underlayColor="transparent"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        allowFontScaling={false}
+        brand={false}
+        color="black"
+        name="wifi"
+        size={24}
+        solid={false}
+        style={
+          Object {
+            "backgroundColor": "transparent",
+          }
+        }
+        testID="iconIcon"
+      />
+    </View>
+  </DummyTouchableNativeFeedback>
+</View>
+`;
