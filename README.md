@@ -1,7 +1,9 @@
-<div>
+
 Mobile side of CS308-Software Engineering project.
+
+
 [Backend of the project](https://github.com/Efesencan/E-Commerce-Website)
-</div>
+
 <!-- ![Reference Designs](./screenshots/add%20comment.png =100x20) -->
 <div>
 <p align="center">
