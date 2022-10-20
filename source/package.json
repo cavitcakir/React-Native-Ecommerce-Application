@@ -22,7 +22,7 @@
     "react-native-elements": "^2.0.0",
     "react-native-gesture-handler": "~1.5.0",
     "react-native-material-dropdown": "^0.11.1",
-    "react-native-reanimated": "~1.4.0",
+    "react-native-reanimated": "~2.10.0",
     "react-native-safe-area-context": "^0.6.0",
     "react-native-screens": "2.0.0-alpha.12",
     "react-native-vector-icons": "^6.6.0",
